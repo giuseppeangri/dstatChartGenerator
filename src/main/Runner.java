@@ -285,27 +285,6 @@ public class Runner extends Application {
 			
 		}
 		while(!done);
-
-//		filename = scanner.next();
-//		
-//		if(!filename.endsWith(".csv")) {
-//			filename += ".csv";
-//		}
-//		
-//		File file = new File(inputDirectory+filename);
-//		
-//		while (!file.exists()) {
-//			System.out.println(fileErrorMsg);
-//			System.out.println(message);
-//			
-//			filename = scanner.next();
-//			
-//			if(!filename.endsWith(".csv")) {
-//				filename += ".csv";
-//			}
-//			
-//			file = new File(inputDirectory+filename);
-//		}
 		
 		System.out.println(divider);
 		
@@ -354,13 +333,6 @@ public class Runner extends Application {
 			
 		}
 		while(!done);
-
-//		choice = scanner.next();
-//		while ( !choice.equalsIgnoreCase("y") && !choice.equalsIgnoreCase("n") ) {
-//			System.out.println(choiceErrorMsg);
-//			System.out.println(message);
-//			choice = scanner.next();
-//		}
 		
 		System.out.println(divider);
 		
